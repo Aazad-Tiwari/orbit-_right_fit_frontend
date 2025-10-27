@@ -1,4 +1,4 @@
-# 🎯 Right Fit Matcher 2.0
+# Right Fit Matcher 2.0
 
 **Right Fit Matcher 2.0** is a university recommendation tool that helps students identify the best-fit universities based on their **GMAT**, **GPA**, and **work experience**.  
 
@@ -6,14 +6,14 @@ It goes beyond simple matching — providing a clear, data-backed comparison bet
 
 ---
 
-## 🌐 Live Links
+## Live Links
 
 - **Frontend (Vercel):** [https://orbit-right-fit-frontend.vercel.app/](https://orbit-right-fit-frontend.vercel.app/)  
 - **Backend (Render):** [https://right-fit-backend.onrender.com/](https://right-fit-backend.onrender.com/)
 
 ---
 
-## 💡 Overview
+## Overview
 
 Right Fit Matcher enables users to:
 
@@ -26,7 +26,7 @@ The project focuses on delivering an intuitive, minimal, and responsive UI — e
 
 ---
 
-## 🧠 Matching Logic
+## Matching Logic
 
 Each university’s data includes average GMAT, GPA, and experience.  
 The backend calculates a **weighted fit score** based on how close a user’s profile is to these averages.
@@ -37,14 +37,14 @@ For example:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 **Frontend:** React (Vite) • Tailwind CSS • Context API  
 **Backend:** Node.js • Express.js • PostgreSQL • Sequelize ORM  
 
 ---
 
-## 🧩 Data Source
+## Data Source
 
 All university data is pre-seeded from curated JSON data stored in the backend (`seed.js`).  
 Each entry includes metrics such as average GMAT, GPA, and required work experience.

@@ -16,7 +16,7 @@ const MatchForm = () => {
       className="max-w-md mx-auto p-6 bg-white rounded-2xl shadow-md"
     >
       <h2 className="text-2xl font-bold text-center mb-4 text-blue-600">
-        Find Your Right Fit 
+        Find Your Right Fit
       </h2>
 
       <input
@@ -66,11 +66,10 @@ const MatchForm = () => {
       <button
         type="submit"
         disabled={loading}
-        className={`w-full py-2 rounded-lg text-white font-semibold transition ${
-          loading
+        className={`w-full py-2 rounded-lg text-white font-semibold transition ${loading
             ? "bg-gray-400 cursor-not-allowed"
             : "bg-blue-600 hover:bg-blue-700"
-        }`}
+          }`}
       >
         {loading ? "Finding Matches..." : "Find My Fit"}
       </button>
