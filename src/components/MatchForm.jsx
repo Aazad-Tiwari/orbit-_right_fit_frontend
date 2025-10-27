@@ -16,7 +16,7 @@ const MatchForm = () => {
       className="max-w-md mx-auto p-6 bg-white rounded-2xl shadow-md"
     >
       <h2 className="text-2xl font-bold text-center mb-4 text-blue-600">
-        Find Your Right Fit 🎯
+        Find Your Right Fit 
       </h2>
 
       <input
